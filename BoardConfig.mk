@@ -19,3 +19,6 @@ include device/lenovo/a6000/board/*.mk
 
 # inherit from proprietary files
 -include vendor/lenovo/a6000/BoardConfigVendor.mk
+
+# Use Snapdragon LLVM, if available
+TARGET_USE_SDCLANG := true
